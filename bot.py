@@ -11,7 +11,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = '7962235706:AAG86lToLtFplP9QzTw2LL9tPZcNPWftJAU'
+TOKEN = 'BOT_TOKEN'
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -156,4 +156,5 @@ def main():
         print(f"Ошибка: {e}")
 
 if __name__ == "__main__":
+
     main()
